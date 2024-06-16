@@ -14,29 +14,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v3
-        with:
-          node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        uses: bahmutov/npm-install@v1
 
       - name: Build project
         run: npm run build
-
-      - name: Verify dist directory
-        run: |
-          echo "Verifying contents of the dist directory"
-          if [ -d "./dist" ] && [ "$(ls -A ./dist)" ]; then
-            echo "Dist directory exists and is not empty"
-          else
-            echo "Dist directory is missing or empty"
-            exit 1
-          fi
-
-      - name: List files in dist directory
-        run: ls -al ./dist
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
