@@ -1,4 +1,7 @@
 import React from "react";
+import pm1 from '../assets/category/pm1.jpg'
+import pm2 from '../assets/category/pm2.avif'
+import pm3 from '../assets/category/pm3.jpg'
 
 export default function Category() {
     return (
@@ -20,7 +23,7 @@ export default function Category() {
                 <div className="max-w-[90%] mx-auto">
                     <div className="grid grid-cols-2 gap-8  max-md:max-w-[90%]  max-md:mx-auto max-md:gap-5 max-sm:flex max-sm:flex-col ">
                         <div className="relative max-md:h-[30rem] max-sm:max-h-[14rem] ">
-                            <img className="object-cover h-full w-full  rounded-md brightness-[80%] " src= {import.meta.env.BASE_URL + "src/assets/category/pm1.jpg"} alt="Product image" />
+                            <img className="object-cover h-full w-full  rounded-md brightness-[80%] " src= {pm1} alt="Product image" />
                             <div className="absolute bottom-0 left-0 text-white m-3 p-3 ">
                                 <h3 className="font-bold">New Arrivals</h3>
                                 <p>Prescription Medicine</p>
@@ -29,14 +32,14 @@ export default function Category() {
 
                         <div className="flex flex-col gap-5 justify-between max-md:justify-between  ">
                             <div className="relative h-80 max-md:max-h-[14rem]  ">
-                                <img className="object-cover h-[20rem] max-md:h-[14rem]  w-full rounded-md brightness-[80%] " src= {import.meta.env.BASE_URL + "src/assets/category/pm2.avif"} alt="Product image" />
+                                <img className="object-cover h-[20rem] max-md:h-[14rem]  w-full rounded-md brightness-[80%] " src= {pm2} alt="Product image" />
                                 <div className="absolute bottom-0 left-0  text-white m-3 p-3 ">
                                     <h3 className="font-bold">New Arrivals</h3>
                                     <p>Baby & Kids</p>
                                 </div>
                             </div>
                             <div className="relative h-80 max-md:max-h-[14rem]  ">
-                                <img className="object-cover h-[20rem] max-md:h-[14rem]  w-full rounded-md brightness-[80%] " src= "src/assets/category/pm3.jpg" alt="Product image" />
+                                <img className="object-cover h-[20rem] max-md:h-[14rem]  w-full rounded-md brightness-[80%] " src= {pm3} alt="Product image" />
                                 <div className="absolute bottom-0 left-0  text-white m-3 p-3 ">
                                     <h3 className="font-bold">New Arrivals</h3>
                                     <p>Personal care</p>
