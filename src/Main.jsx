@@ -10,7 +10,7 @@ root.render(
 
   <React.StrictMode>
     
-    <BrowserRouter>
+    <BrowserRouter basename='/familymart/'>
       <App />
     </BrowserRouter>
     
