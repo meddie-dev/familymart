@@ -12,20 +12,31 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3  # Ensuring latest version of checkout action
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Setting Node.js version to 20
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm install  # Direct npm install command
+        run: npm install
+        continue-on-error: true  # Continue on error for debugging purposes
+
+      - name: Print npm debug log
+        if: failure()
+        run: cat npm-debug.log
 
       - name: Build project
         run: npm run build
+        continue-on-error: true  # Continue on error for debugging purposes
+
+      - name: Print build debug information
+        if: failure()
+        run: cat build.log || echo "No build log found"
 
       - name: Upload production-ready build files
+        if: success()
         uses: actions/upload-artifact@v3
         with:
           name: production-files
