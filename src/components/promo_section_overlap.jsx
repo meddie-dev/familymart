@@ -11,7 +11,7 @@ export default function PromoSectionOverlap() {
                     <div className="relative max-w-[90%] mx-auto mb-20 flex flex-row gap-9  max-lg:flex-row max-lg:max-w-[97%] max-lg:mx-auto  max-md:flex-col max-md:max-w-[75%]  max-sm:flex-col max-sm:max-w-[75%]">
                         
                         <div className="relative flex drop-shadow-xl" >
-                            <img className="rounded-xl brightness-[90%] " src={import.meta.env.BASE_URL + "src/assets/category/pm1.jpg"} alt="Prescription Medicine image" />
+                            <img className="rounded-xl brightness-[90%] " src={import.meta.env.BASE_URL + "./assets/category/pm1.jpg"} alt="Prescription Medicine image" />
                             <div className="absolute bottom-7 left-7 flex flex-col z-10">
                                 <h3 className="text-sm font-semibold text-white my-1">Shop the Collection</h3>
                                 <p className="text-md font-bold text-white">Prescription Medicine</p>
@@ -19,7 +19,7 @@ export default function PromoSectionOverlap() {
                             <div className="absolute rounded-lg top-0 right-0 opacity-30 w-full h-full bg-gradient-to-t from-gray-500 "></div>
                         </div>
                         <div className="relative flex drop-shadow-xl" >
-                            <img className="rounded-xl brightness-[90%]" src={import.meta.env.BASE_URL + "src/assets/category/pm2.avif"} alt="Baby & Kids image" />
+                            <img className="rounded-xl brightness-[90%]" src={import.meta.env.BASE_URL + "./assets/category/pm2.avif"} alt="Baby & Kids image" />
                             <div className="absolute bottom-7 left-7 flex flex-col z-10">
                                 <h3 className="text-sm font-semibold text-white my-1">Shop the Collection</h3>
                                 <p className="text-md font-bold text-white"> Baby & Kids </p>
@@ -27,7 +27,7 @@ export default function PromoSectionOverlap() {
                             <div className="absolute rounded-lg top-0 right-0 opacity-30 w-full h-full bg-gradient-to-t from-gray-500 "></div>
                         </div>
                         <div className="relative flex drop-shadow-xl" >
-                            <img className="rounded-xl brightness-[90%]" src={import.meta.env.BASE_URL + "src/assets/category/pm3.jpg"} alt="Personal care image" />
+                            <img className="rounded-xl brightness-[90%]" src={import.meta.env.BASE_URL + "./assets/category/pm3.jpg"} alt="Personal care image" />
                             <div className="absolute bottom-7 left-7 flex flex-col z-10">
                                 <h3 className="text-sm font-semibold text-white my-1">Shop the Collection</h3>
                                 <p className="text-md font-bold text-white">Personal care</p>
