@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #637eb9;
+}
+
+* {
+  font-family: Inter var, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid  var(--primary-color);
+
+}
+
+label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+input {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
