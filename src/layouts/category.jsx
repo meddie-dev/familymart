@@ -1,6 +1,6 @@
 import React from "react";
-import pm3 from "./assets/category/pm3.jpg"
-import pm1 from "./assets/category/pm1.jpg" 
+import pm3 from "../assets/category/pm3.jpg"
+import pm1 from "../assets/category/pm1.jpg" 
 
 export default function Category() {
     return (
