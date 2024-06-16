@@ -1,4 +1,4 @@
-import items from './assets/item.png'
+import items from '../assets/item.png'
 export default function ProductLists() {
     return (
         <>
