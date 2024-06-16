@@ -56,7 +56,7 @@ export default function FeatureSection() {
                 </div>
             </div>
             <div className="max-w-[90%] text-center mb-5 ">
-                <img className=" max-w-[90%] mx-auto rounded-3xl" src="src/assets/task1.png" alt="task 1 image" />
+                <img className=" max-w-[90%] mx-auto rounded-3xl" src= {import.meta.env.BASE_URL + "src/assets/task1.png"} alt="task 1 image" />
             </div>
            
         </section>

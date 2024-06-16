@@ -27,7 +27,7 @@ import { Route, Routes } from 'react-router-dom'
     <>{
       loading ? 
         <div className="w-full h-screen flex justify-center items-center overflow-y-hidden">
-          <video className="w-full h-full object-cover" src="src/assets/Untitled design.mp4" autoPlay muted playsInline loop loading={loading}></video>
+          <video className="w-full h-full object-cover" src={import.meta.env.BASE_URL +"src/assets/Untitled design.mp4"} autoPlay muted playsInline loop loading={loading}></video>
         </div>
       :
       <Routes>

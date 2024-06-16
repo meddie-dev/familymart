@@ -2,7 +2,7 @@ export default function Hero() {
     return (
         <>
             <div className="hero min-h-screen bg-base-200 mx-5 my-5 rounded-3xl relative">
-                <div className="absolute inset-0 bg-[url('src/assets/pic1.jpg')] bg-cover bg-center blur-sm opacity-85 rounded-3xl brightness-[0.7] "></div>
+                <div className="absolute inset-0 bg-[url('import.meta.env.BASE_URL + src/assets/pic1.jpg')] bg-cover bg-center blur-sm opacity-85 rounded-3xl brightness-[0.7] "></div>
                 <div className="hero-content py-[15%] text-center flex justify-center content-center relative z-10  ">
                     <div className="w-md max-md:max-w-md  max-sm:mt-20">
                         <div className="flex gap-2 justify-center bottom-4 border-2 border-white-100 p-2 opacity-50 rounded-full hover:opacity-100 hover:cursor-pointer hover:transition ease-in-out delay-200 text-white max-md:text-sm">Announcing out next round of funding.

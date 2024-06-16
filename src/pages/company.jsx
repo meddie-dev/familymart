@@ -68,7 +68,7 @@ export default function Company() {
                     
                 </div>
                <div className="absolute top-0 left-0 z-0 w-full h-full opacity-10 ">
-                    <video className=" object-cover w-full h-full" src="src/assets/Untitled design (1).mp4" autoPlay muted playsInline loop></video>
+                    <video className=" object-cover w-full h-full" src= {import.meta.env.BASE_URL + "src/assets/Untitled design (1).mp4"} autoPlay muted playsInline loop></video>
                 </div>
             </div>
             <Footer />

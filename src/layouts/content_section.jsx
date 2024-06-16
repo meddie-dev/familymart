@@ -4,7 +4,7 @@ export default function ContentSection() {
 
             <div className="relative max-h-[500px] max-w-[550px] m-5 p-5 flex flex-col justify-end  rounded-3xl max-md:hidden ">
                 
-                <div className="absolute inset-0 bg-[url('src/assets/task2.png')] bg-fill bg-center blur-[1px] opacity-95 rounded-3xl brightness-[0.5] "></div>
+                <div className="absolute inset-0 bg-[url('import.meta.env.BASE_URL + src/assets/task2.png')] bg-fill bg-center blur-[1px] opacity-95 rounded-3xl brightness-[0.5] "></div>
                 <div className="absolute top-0 left-0 translate-y-52 translate-x-5 z-0 opacity-20">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-40 h-40">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 8.25h15m-16.5 7.5h15m-1.8-13.5-3.9 19.5m-2.1-19.5-3.9 19.5" />

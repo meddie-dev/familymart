@@ -6,7 +6,7 @@ export default function SignIn() {
                 <div className="relative z-30 h-full mx-auto my-auto flex flex-col justify-center bg-slate-50 rounded-l-xl  max-lg:rounded-xl">
                     <div className="max-w-[90%] mx-auto pt-5 text-center max-md:max-w-[80%]">
                         <Link to="/">
-                            <img className="w-[5rem] mx-auto" src="src/assets/shopping-bag-5-svgrepo-com.svg" alt="" />
+                            <img className="w-[5rem] mx-auto" src= {import.meta.env.BASE_URL + "src/assets/shopping-bag-5-svgrepo-com.svg"} alt="" />
                         </Link>
                         <h3 className="font-bold text-2xl py-5 ">
                             Sign in to your account
@@ -38,7 +38,7 @@ export default function SignIn() {
                     </div>
                 </div>
                 <div className='max-w-[60%] h-full mx-auto max-lg:absolute max-lg:top-0 max-lg:left-0 max-lg:right-0 max-lg:blur-sm max-lg:rounded-xl max-sm:max-w-[90%]'>
-                    <video className='w-full h-full object-cover rounded-r-xl' src="src/assets/Untitled design (2).mp4" autoPlay muted playsInline loop></video>
+                    <video className='w-full h-full object-cover rounded-r-xl' src={import.meta.env.BASE_URL +"src/assets/Untitled design (2).mp4"} autoPlay muted playsInline loop></video>
                 </div>
             </div>
         </>

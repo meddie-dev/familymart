@@ -14,7 +14,7 @@ export default function ShoppingCart() {
                     <div className="w-[90%] mx-auto flex flex-row justify-between border-b border-t">
                         <div className="flex flex-row p-3">
                             <div className="w-[12rem]">
-                                <img src="src/assets/item.png" alt="" />
+                                <img src= {import.meta.env.BASE_URL + "src/assets/item.png"} alt="item.png" />
                             </div>
                             <div className="flex flex-col justify-between p-5">
                                 <div className="flex flex-col gap-3">
@@ -46,7 +46,7 @@ export default function ShoppingCart() {
                     <div className="w-[90%] mx-auto flex flex-row justify-between border-b border-t">
                         <div className="flex flex-row p-3">
                             <div className="w-[12rem]">
-                                <img src="src/assets/item.png" alt="" />
+                                <img src= {import.meta.env.BASE_URL + "src/assets/item.png"} alt="item.png" />
                             </div>
                             <div className="flex flex-col justify-between p-5">
                                 <div className="flex flex-col gap-3">
@@ -78,7 +78,7 @@ export default function ShoppingCart() {
                     <div className="w-[90%] mx-auto flex flex-row justify-between border-b border-t">
                         <div className="flex flex-row p-3">
                             <div className="w-[12rem]">
-                                <img src="src/assets/item.png" alt="" />
+                                <img src= {import.meta.env.BASE_URL + "src/assets/item.png"} alt="item.png" />
                             </div>
                             <div className="flex flex-col justify-between p-5">
                                 <div className="flex flex-col gap-3">
@@ -111,7 +111,7 @@ export default function ShoppingCart() {
                     <div className="w-[90%] mx-auto flex flex-row justify-between border-b border-t">
                         <div className="flex flex-row p-3">
                             <div className="w-[12rem]">
-                                <img src="src/assets/item.png" alt="" />
+                                <img src= {import.meta.env.BASE_URL + "src/assets/item.png"} alt="item.png" />
                             </div>
                             <div className="flex flex-col justify-between p-5">
                                 <div className="flex flex-col gap-3">

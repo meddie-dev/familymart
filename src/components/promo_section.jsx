@@ -32,7 +32,7 @@ export default function PromoSection() {
                             </Link>
                         </div>
                         <div>
-                            <video lazy className="h-[100vh] max-md:h-full object-cover object-bottom brightness-[70%] max-xl:rounded-r-md max-lg:rounded-r-md max-md:rounded-r-md max-sm:rounded-r-none max-sm:mb-[-1rem] " autoPlay loop muted  src="src/assets/4121750-uhd_3840_2160_25fps.mp4" alt="item video" />
+                            <video lazy className="h-[100vh] max-md:h-full object-cover object-bottom brightness-[70%] max-xl:rounded-r-md max-lg:rounded-r-md max-md:rounded-r-md max-sm:rounded-r-none max-sm:mb-[-1rem] " autoPlay loop muted  src= {import.meta.env.BASE_URL + "src/assets/4121750-uhd_3840_2160_25fps.mp4"} alt="item video" />
                         </div>
                     </div>
 

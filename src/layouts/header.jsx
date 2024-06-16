@@ -56,7 +56,7 @@ export default function Header() {
                 <div className="md:hidden">
                     <div className={`relative w-full text-white flex-col h-screen transition-all ${isSidebarOpen ? 'flex' : 'hidden'} md:flex`}>
                         <video className="absolute inset-0 w-full h-full object-cover" autoPlay loop muted>
-                            <source src="src/assets/4121750-uhd_3840_2160_25fps.mp4" type="video/mp4" />
+                            <source src= {import.meta.env.BASE_URL + "src/assets/4121750-uhd_3840_2160_25fps.mp4"} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                         <div className="relative z-10 flex-1 px-2 py-10 space-y-2 text-center bg-opacity-75 bg-gray-800">

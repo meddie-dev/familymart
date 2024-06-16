@@ -8,168 +8,168 @@ export default function Company() {
             name: 'Aspirin 500mg',
             description: 'Anti-inflammatory.',
             price: '₱5.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 2,
             name: 'Vitamin C 1000mg',
             description: 'Boosts immune system.',
             price: '₱12.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 3,
             name: 'Cough Syrup',
             description: 'Relieves cough.',
             price: '₱8.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 4,
             name: 'Aspirin 500mg',
             description: 'Anti-inflammatory.',
             price: '₱5.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 5,
             name: 'Vitamin C 1000mg',
             description: 'Boosts immune system.',
             price: '₱12.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 6,
             name: 'Cough Syrup',
             description: 'Relieves cough.',
             price: '₱8.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 7,
             name: 'Aspirin 500mg',
             description: 'Anti-inflammatory.',
             price: '₱5.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 8,
             name: 'Vitamin C 1000mg',
             description: 'Boosts immune system.',
             price: '₱12.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 9,
             name: 'Cough Syrup',
             description: 'Relieves cough.',
             price: '₱8.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 10,
             name: 'Aspirin 500mg',
             description: 'Anti-inflammatory.',
             price: '₱5.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 11,
             name: 'Vitamin C 1000mg',
             description: 'Boosts immune system.',
             price: '₱12.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 12,
             name: 'Cough Syrup',
             description: 'Relieves cough.',
             price: '₱8.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 13,
             name: 'Aspirin 500mg',
             description: 'Anti-inflammatory.',
             price: '₱5.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 14,
             name: 'Vitamin C 1000mg',
             description: 'Boosts immune system.',
             price: '₱12.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 15,
             name: 'Cough Syrup',
             description: 'Relieves cough.',
             price: '₱8.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 16,
             name: 'Aspirin 500mg',
             description: 'Anti-inflammatory.',
             price: '₱5.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 517,
             name: 'Vitamin C 1000mg',
             description: 'Boosts immune system.',
             price: '₱12.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 18,
             name: 'Cough Syrup',
             description: 'Relieves cough.',
             price: '₱8.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 19,
             name: 'Aspirin 500mg',
             description: 'Anti-inflammatory.',
             price: '₱5.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 20,
             name: 'Vitamin C 1000mg',
             description: 'Boosts immune system.',
             price: '₱12.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 21,
             name: 'Cough Syrup',
             description: 'Relieves cough.',
             price: '₱8.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 22,
             name: 'Aspirin 500mg',
             description: 'Anti-inflammatory.',
             price: '₱5.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 23,
             name: 'Vitamin C 1000mg',
             description: 'Boosts immune system.',
             price: '₱12.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
         {
             id: 24,
             name: 'Cough Syrup',
             description: 'Relieves cough.',
             price: '₱8.00',
-            image: 'src/assets/item.png'
+            image: import.meta.env.BASE_URL + 'src/assets/item.png'
         },
 
     ]; return (

@@ -13,7 +13,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -25,7 +25,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -37,7 +37,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -49,7 +49,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -69,7 +69,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -81,7 +81,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -93,7 +93,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -105,7 +105,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -126,7 +126,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -138,7 +138,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -150,7 +150,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
@@ -162,7 +162,7 @@ export default function ProductLists() {
                         <div className="flex flex-col max-xl:mx-auto">
                             <div className="relative w-[19rem] max-xl:w-[16rem] max-md:max-sm:w-[11rem] ">
                                 <div className="absolute opacity-30 rounded-lg brightness-50 w-full h-full bg-gradient-to-t from-gray-500 "></div>
-                                <img className="rounded-2xl " src="src/assets/item.png" alt="item image" />
+                                <img className="rounded-2xl " src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item image" />
                                 <h3 className=" absolute z-20 bottom-4 right-4  text-xl max-md:text-lg max-sm:text-md font-bold text-white">&#x20B1;150</h3>
                             </div>
                             <div className="my-3 w-full max-sm:text-center">
