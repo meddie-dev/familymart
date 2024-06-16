@@ -1,6 +1,6 @@
 import pm1 from '../assets/category/pm1.jpg'
 import pm2 from '../assets/category/pm2.avif'
-import pm3 from '../assets/category/pm3.avif'
+import pm3 from '../assets/category/pm3.jpg'
 import bg3 from '../assets/bg3.jpg'
 export default function PromoSectionOverlap() {
     return (
