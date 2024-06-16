@@ -38,7 +38,7 @@ export default function PromoSectionOverlap() {
                     </div>
                 </div>
                 <div className="absolute top-[-5rem] right-0 left-0 z-[-10] brightness-75 blur-sm">
-                    <img className=" object-cover h-[40rem] w-full max-xl:h-[36rem] max-lg:h-[31rem] max-md:h-[29rem] max-sm:h-[33rem]  " src={import.meta.env.BASE_URL + "src/assets/bg3.jpg"} alt="bg3.jpg" />
+                    <img className=" object-cover h-[40rem] w-full max-xl:h-[36rem] max-lg:h-[31rem] max-md:h-[29rem] max-sm:h-[33rem]  " src={import.meta.env.BASE_URL + "./assets/bg3.jpg"} alt="bg3.jpg" />
                     <div className="absolute rounded-lg top-0 right-0 opacity-40 w-full h-full bg-gradient-to-b from-[#637eb9] "></div>
                 </div>
                 
