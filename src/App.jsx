@@ -9,7 +9,7 @@ import ShoppingCart from './pages/shopping_cart.jsx'
 import Company from './pages/company.jsx'
 import MarketPlace from './pages/market_place.jsx'
 import Checkout from './pages/checkout.jsx'
-import design from '../assets/Untitled design.mp4'
+import design from './assets/Untitled design.mp4'
 import './index.css'
 
 import { Route, Routes } from 'react-router-dom'
