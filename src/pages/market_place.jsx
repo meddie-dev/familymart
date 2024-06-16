@@ -1,6 +1,6 @@
 import StoreNav from "../components/store_nav";
 import Footer from "../components/footer";
-import items from "./assets/item.png"
+import items from "../assets/item.png"
 
 export default function Company() {
     const products = [
