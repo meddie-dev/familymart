@@ -21,22 +21,19 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        continue-on-error: true  # Continue on error for debugging purposes
-
-      - name: Print npm debug log
-        if: failure()
-        run: cat npm-debug.log
 
       - name: Build project
-        run: npm run build
-        continue-on-error: true  # Continue on error for debugging purposes
+        run: |
+          npm run build
+          echo "Build completed"
 
-      - name: Print build debug information
-        if: failure()
-        run: cat build.log || echo "No build log found"
+      - name: List files in dist directory
+        run: |
+          echo "Listing files in ./dist"
+          ls -al ./dist
 
       - name: Upload production-ready build files
-        if: success()
+        if: success() && steps.build.outputs['build-status'] == 'success'
         uses: actions/upload-artifact@v3
         with:
           name: production-files
