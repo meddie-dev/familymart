@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react'
-import Landing from './pages/landing_page.jsx'
+import Landing from '../pages/landing_page.jsx'
 import Home from './pages/home.jsx'
-import Shop from './pages/shop.jsx'
-import Create from './pages/create_acc.jsx'
-import Signin from './pages/sign_in.jsx'
-import Account from './pages/account.jsx'
-import ShoppingCart from './pages/shopping_cart.jsx'
-import Company from './pages/company.jsx'
-import MarketPlace from './pages/market_place.jsx'
-import Checkout from './pages/checkout.jsx'
+import Shop from '../pages/shop.jsx'
+import Create from '../pages/create_acc.jsx'
+import Signin from '../pages/sign_in.jsx'
+import Account from '../pages/account.jsx'
+import ShoppingCart from '../pages/shopping_cart.jsx'
+import Company from '../pages/company.jsx'
+import MarketPlace from '../pages/market_place.jsx'
+import Checkout from '../pages/checkout.jsx'
+import design from '../assets/Untitled design.mp4'
 import './index.css'
 
 import { Route, Routes } from 'react-router-dom'
@@ -27,7 +28,7 @@ import { Route, Routes } from 'react-router-dom'
     <>{
       loading ? 
         <div className="w-full h-screen flex justify-center items-center overflow-y-hidden">
-          <video className="w-full h-full object-cover" src={import.meta.env.BASE_URL +"/assets/Untitled design.mp4"} autoPlay muted playsInline loop loading={loading}></video>
+          <video className="w-full h-full object-cover" src={design} autoPlay muted playsInline loop loading={loading}></video>
         </div>
       :
       <Routes>
