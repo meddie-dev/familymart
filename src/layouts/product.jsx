@@ -8,7 +8,7 @@ export default function Product() {
             <div>
                 <div className="flex flex-wrap max-md:flex-col">
                     <div className="w-1/5 mx-auto text-center max-md:w-3/5 max-sm:w-4/5">
-                        <img className="w-full" src= {import.meta.env.BASE_URL + "./assets/item.png"} alt="items" />
+                        <img className="w-full" src= {import.meta.env.BASE_URL + "../assets/item.png"} alt="items" />
                         <h3 className="text-md  text-gray-600">
                             FamilyMart - Item Default
                         </h3>
@@ -18,7 +18,7 @@ export default function Product() {
                         </button>
                     </div>
                     <div className="w-1/5 mx-auto text-center max-md:w-3/5 max-sm:w-4/5">
-                        <img className="w-full" src= {import.meta.env.BASE_URL + "./assets/item.png"} alt="items" />
+                        <img className="w-full" src= {import.meta.env.BASE_URL + "../assets/item.png"} alt="items" />
                         <h3 className="text-md  text-gray-600">
                             FamilyMart - Item Default
                         </h3>
@@ -28,7 +28,7 @@ export default function Product() {
                         </button>
                     </div>
                     <div className="w-1/5 mx-auto text-center max-md:w-3/5 max-sm:w-4/5">
-                        <img className="w-full" src= {import.meta.env.BASE_URL + "./assets/item.png"} alt="items" />
+                        <img className="w-full" src= {import.meta.env.BASE_URL + "../assets/item.png"} alt="items" />
                         <h3 className="text-md  text-gray-600">
                             FamilyMart - Item Default
                         </h3>
@@ -38,7 +38,7 @@ export default function Product() {
                         </button>
                     </div>
                     <div className="w-1/5 mx-auto text-center max-md:w-3/5 max-sm:w-4/5">
-                        <img className="w-full" src= {import.meta.env.BASE_URL + "./assets/item.png"} alt="items" />
+                        <img className="w-full" src= {import.meta.env.BASE_URL + "../assets/item.png"} alt="items" />
                         <h3 className="text-md  text-gray-600">
                             FamilyMart - Item Default
                         </h3>
