@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Landing from '../pages/landing_page.jsx'
+import Landing from './pages/landing_page.jsx'
 import Home from './pages/home.jsx'
 import Shop from '../pages/shop.jsx'
 import Create from '../pages/create_acc.jsx'
