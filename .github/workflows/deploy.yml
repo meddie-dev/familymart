@@ -21,22 +21,24 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        continue-on-error: true  # Continue on error for debugging purposes
-
-      - name: Print npm debug log
-        if: failure()
-        run: cat npm-debug.log
 
       - name: Build project
         run: npm run build
-        continue-on-error: true  # Continue on error for debugging purposes
 
-      - name: Print build debug information
-        if: failure()
-        run: cat build.log || echo "No build log found"
+      - name: Verify dist directory
+        run: |
+          echo "Verifying contents of the dist directory"
+          if [ -d "./dist" ] && [ "$(ls -A ./dist)" ]; then
+            echo "Dist directory exists and is not empty"
+          else
+            echo "Dist directory is missing or empty"
+            exit 1
+          fi
+
+      - name: List files in dist directory
+        run: ls -al ./dist
 
       - name: Upload production-ready build files
-        if: success()
         uses: actions/upload-artifact@v3
         with:
           name: production-files
