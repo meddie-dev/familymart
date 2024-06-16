@@ -11,7 +11,7 @@ import MarketPlace from './pages/market_place.jsx'
 import Checkout from './pages/checkout.jsx'
 import './index.css'
 
-import { Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 
  function App() {
   const [loading, setLoading] = useState(false)
@@ -30,6 +30,7 @@ import { Route, Routes } from 'react-router-dom'
           <video className="w-full h-full object-cover" src="src/assets/Untitled design.mp4" autoPlay muted playsInline loop loading={loading}></video>
         </div>
       :
+      <HashRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/shop" element={<Shop />} />
@@ -41,7 +42,7 @@ import { Route, Routes } from 'react-router-dom'
         <Route path="/market_place" element={<MarketPlace />} />
         <Route path="/checkout" element={<Checkout />} />
       </Routes>
-      
+      </HashRouter>
     }
     </>
   )
