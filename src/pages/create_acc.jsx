@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import bg from '../assets/Untitled design (1).mp4';
+import bag from '../assets/shopping-bag-5-svgrepo-com.svg';
 export default function SignIn() {
     return (
         <>
@@ -6,7 +8,7 @@ export default function SignIn() {
                 <div className="relative z-30 h-full mx-auto my-auto flex flex-col justify-center">
                     <div className="max-w-[50%] mx-auto pt-5 text-center max-md:max-w-[80%]">
                         <Link to="/">
-                            <img className="w-[5rem] mx-auto" src= {import.meta.env.BASE_URL + "src/assets/shopping-bag-5-svgrepo-com.svg"} alt="shoppping bag" />
+                            <img className="w-[5rem] mx-auto" src= {bag} alt="shoppping bag" />
                         </Link>
                         <h3 className="font-bold text-2xl py-2 ">
                             Let's get started
@@ -56,7 +58,7 @@ export default function SignIn() {
                     </div>
                 </div>
                 <div className="absolute top-0 left-0 w-full h-full z-0 blur-sm ">
-                    <video className='w-full h-full object-cover' src= {import.meta.env.BASE_URL + "src/assets/Untitled design (1).mp4"} autoPlay muted loop></video>
+                    <video className='w-full h-full object-cover' src= {bg} autoPlay muted loop></video>
                 </div>
             </div>
         </>

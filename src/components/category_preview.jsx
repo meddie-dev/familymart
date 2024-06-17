@@ -1,4 +1,4 @@
-
+import items from '../assets/item.png'
 export default  function CategoryPreview({category}) {
     return (
         <>
@@ -11,17 +11,17 @@ export default  function CategoryPreview({category}) {
 
                 <div className="max-w-[97%] mx-auto flex flex-row gap-9  max-lg:flex-row max-lg:max-w-[97%] max-lg:mx-auto max-md:flex-col max-md:max-w-[90%] max-sm:max-w-[97%]">
                     <div >
-                        <img className="rounded-xl brightness-75" src={import.meta.env.BASE_URL+ "src/assets/item.png"} alt="item.png" />
+                        <img className="rounded-xl brightness-75" src={items} alt="item.png" />
                         <h3 className="text-md font-bold text-gray-700 my-3">Handcrafted Collection</h3>
                         <p className="text-sm font-medium text-gray-400">Keep your phone, keys, and wallet together, so you can lose everything at once.</p>
                     </div>
                     <div>
-                        <img className="rounded-xl brightness-75" src={import.meta.env.BASE_URL+ "src/assets/item.png"} alt="item.png" />
+                        <img className="rounded-xl brightness-75" src={items} alt="item.png" />
                         <h3 className="text-md font-bold text-gray-700 my-3">Handcrafted Collection</h3>
                         <p className="text-sm font-medium text-gray-400">Keep your phone, keys, and wallet together, so you can lose everything at once.</p>
                     </div>
                     <div>
-                        <img className="rounded-xl brightness-75" src={import.meta.env.BASE_URL+ "src/assets/item.png"} alt="item.png" />
+                        <img className="rounded-xl brightness-75" src={items} alt="item.png" />
                         <h3 className="text-md font-bold text-gray-700 my-3">Handcrafted Collection</h3>
                         <p className="text-sm font-medium text-gray-400">Keep your phone, keys, and wallet together, so you can lose everything at once.</p>
                     </div>

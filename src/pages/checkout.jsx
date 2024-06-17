@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import StoreNav from "../components/store_nav.jsx";
 import Footer from "../components/footer";
+import items from '../assets/item.png';
+import bg from '../assets/Untitled design (1).mp4';
 export default function Checkout() {
     return (
         <>
@@ -139,7 +141,7 @@ export default function Checkout() {
                         <div className="w-full mx-auto flex flex-row justify-between border-b border-t">
                             <div className="flex flex-row p-3">
                                 <div className="w-[12rem]">
-                                    <img src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item.png" />
+                                    <img src={items} alt="item.png" />
                                 </div>
                                 <div className="flex flex-col justify-between p-5">
                                     <div className="flex flex-col gap-3 max-sm:w-[4rem]">
@@ -171,7 +173,7 @@ export default function Checkout() {
                         <div className="w-full mx-auto flex flex-row justify-between border-b border-t">
                             <div className="flex flex-row p-3">
                                 <div className="w-[12rem]">
-                                    <img src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item.png" />
+                                    <img src={items} alt="item.png" />
                                 </div>
                                 <div className="flex flex-col justify-between p-5">
                                     <div className="flex flex-col gap-3 max-sm:w-[4rem]">
@@ -203,7 +205,7 @@ export default function Checkout() {
                         <div className="w-full mx-auto flex flex-row justify-between border-b border-t">
                             <div className="flex flex-row p-3">
                                 <div className="w-[12rem]">
-                                    <img src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item.png" />
+                                    <img src={items} alt="item.png" />
                                 </div>
                                 <div className="flex flex-col justify-between p-5">
                                     <div className="flex flex-col gap-3 max-sm:w-[4rem]">
@@ -236,7 +238,7 @@ export default function Checkout() {
                         <div className="w-full mx-auto flex flex-row justify-between border-b border-t">
                             <div className="flex flex-row p-3">
                                 <div className="w-[12rem]">
-                                    <img src={import.meta.env.BASE_URL + "src/assets/item.png"} alt="item.png" />
+                                    <img src={items} alt="item.png" />
                                 </div>
                                 <div className="flex flex-col justify-between p-5">
                                     <div className="flex flex-col gap-3 max-sm:w-[4rem]">
@@ -274,7 +276,7 @@ export default function Checkout() {
                         <p className="text-gray-500 px-9">Shipping and taxes will be calculated at checkout.</p>
                     </div>
                     <div className="absolute top-0 left-0 z-0 w-full h-full opacity-10 ">
-                        <video className=" object-cover w-full h-full" src="src/assets/Untitled design (1).mp4" autoPlay muted playsInline loop></video>
+                        <video className=" object-cover w-full h-full" src={bg} autoPlay muted playsInline loop></video>
                     </div>
                 </div>
                 

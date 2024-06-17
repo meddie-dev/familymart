@@ -1,4 +1,5 @@
 import React from 'react';
+import footer from '../assets/Untitled design (2).mp4'
 
 export default function Footer() {
     return (
@@ -69,7 +70,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='absolute z-0 top-0 left-0 w-full h-full opacity-10'>
-                    <video className='w-full h-full object-cover' src={import.meta.env.BASE_URL + "src/assets/Untitled design (2).mp4"} autoPlay muted playsInline loop></video>
+                    <video className='w-full h-full object-cover' src={footer} autoPlay muted playsInline loop></video>
                 </div>
             </footer>
         </>
